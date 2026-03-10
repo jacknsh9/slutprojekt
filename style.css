@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+#hero {  
+  height: 100vh;
+  background: url('Images/bmwm4gt3.jpg') no-repeat center center; 
+  background-size: cover;
+  background-attachment: fixed; 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* parralax scrolling effekt övanför */
+
+#hero h1{
+ outline: black;
+}
+
+
+
+
+
+
+#motorsport{
+    display: flex;
+    align-items: center;
+  padding: 20px;
+  gap: 30px;
+
+    /* för att lägga bilden så att den sitter med text och mellanrum med bild och text */
+}
+
+#motorpsport img{
+    width: 300px;
+    height: auto;
+
+
+    /* storlek och justering */
+}
+
+#modern{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 30px;
+}
+
+  /* för att lägga bilden så att den sitter med text och mellanrum med bild och text */
+
+#modern img{
+    height: auto;
+
+    
+    /* storlek och justering */
+}
+
+
+
+
+section{
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  #heritage{
+    padding: 0px;
+    margin: 15px;
+  }
+
+  #evo{
+    padding: 0px;
+    margin: 15px;
+  }
+
+  header h1{
+    background-color: #2A2A2A;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+
+  }
+
+  nav{
+    background-color: #2A2A2A;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+    position: fixed;
+
+  }
+
+  nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+
+  }
+
+  nav a:hover{
+   background-color:  grey;
+  }
+
+
+  footer{
+    background-color: #2A2A2A;
+    text-align: center;
+    height: 100px;
+    padding-top: 20px;
+  }
+
+  body {
+    background-color: #221F1F;
+    margin: 0px;
+    padding: 0px;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
