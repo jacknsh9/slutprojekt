@@ -60,45 +60,49 @@ section{
 }
 
 
-
 #e30{
-  background: url(Images/bmwe30.jpg);
-  background-size: cover;
+  /* background: url(Images/bmwe30.jpg); */
   grid-area: e30;
-  margin: 30px;
-  border-radius: 80px;;
-
-
 }
 
-
-#e46{
-  background: url(Images/m3csl2.avif);
+#e30 img{
   background-size: cover;
-  grid-area: e46;
-  margin: 30px;
-  border-radius: 80px;;
-
-
-
-}
-
-
-#m4gts{
-  background: url(Images/bmwm4gts.jpg);
-  background-size: cover;
-  grid-area: m4gts;
   margin: 30px;
   border-radius: 80px;
 
+  
+}
+
+#e46{
+  grid-area: e46;
+}
 
 
+#e46 img{
+  /* background: url(Images/m3csl2.avif); */
+  background-size: cover;
+  margin: 30px;
+  border-radius: 80px;;
+}
+
+#m4gts{
+  grid-area: m4gts;
+}
+
+#m4gts img{
+  /* background: url(Images/bmwm4gts.jpg); */
+  background-size: cover;
+  margin: 30px;
+  border-radius: 80px;
 }
 
 #m5cs{
-  background: url(Images/m5csf90.jpg);
-  background-size: cover;
   grid-area: m5cs;
+}
+
+#m5cs img{
+  /* background: url(Images/m5csf90.jpg); */
+  background-size: cover;
   margin: 30px;
   border-radius: 80px;
 
@@ -112,6 +116,7 @@ section{
 #m5cs:hover {
   background-color: rgba(255, 255, 255, 0.3);
   background-blend-mode: lighten;
+  
 }
 
 
@@ -119,10 +124,11 @@ section{
 
 
 footer{
-    background-color: #2A2A2A;
-    text-align: center;
-    height: 100px;
-    padding-top: 20px;
+  background-color: #2A2A2A;
+  text-align: center;
+  height: 100px;
+  padding-top: 20px;
+
   }
 
 
