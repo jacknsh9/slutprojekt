@@ -1,6 +1,21 @@
  @charset "UTF-8";
 
 
+
+ #parral{  
+  height: 100vh;
+  background: url('Images/e5.jpg') no-repeat center center; 
+  background-size: cover;
+  background-attachment: fixed; 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
  nav{
     background-color: #2A2A2A;
     padding: 15px 30px;
@@ -21,6 +36,24 @@
   
   nav a:hover{
    background-color:  grey;
+  }
+
+  #gridd{
+    display: grid;
+    min-height: 100vh;
+    grid-template: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ""
+    
+  }
+
+
+
+
+  #engin{
+    background: url(Images/e6.jpg);
+    background-size: cover;
+    grid-area:b;
   }
 
 
