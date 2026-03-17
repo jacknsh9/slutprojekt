@@ -59,16 +59,21 @@ section{
     margin-bottom: 20px;
     border-radius: 8px;
   }
+/* 
+  övanför mellanrum mellan grids och så att det ser bra ut. */
 
   #heritage{
     padding: 0px;
     margin: 15px;
   }
 
+  /* Mellan rum mellan kollumner */
+
   #evo{
     padding: 0px;
     margin: 15px;
   }
+    /* Mellan rum mellan kollumner */
 
   header h1{
     background-color: #2A2A2A;
