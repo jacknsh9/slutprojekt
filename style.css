@@ -15,6 +15,11 @@
 
 /* parralax scrolling effekt övanför med flexbox */
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Gör så att bilder aldrig blir bredare än skärmen */ 
 
 
 
@@ -27,7 +32,7 @@
     /* för att lägga bilden så att den sitter med text och mellanrum med bild och text */
 }
 
-#motorpsport img{
+#motorsport img{
     width: 300px;
     height: auto;
 
@@ -114,10 +119,23 @@ section{
     padding-top: 20px;
   }
 
+
+
   body {
     background-color: #221F1F;
+    overflow-x: hidden;
     margin: 0px;
     padding: 0px;
     color: #FFFFFF;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Stoppar sidan från att kunna scrollas i sidled (horisontellt) */
+
+/*   
+  @media (max-width: 600px); */
