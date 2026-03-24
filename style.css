@@ -11,6 +11,12 @@
   justify-content: center;
   text-align: center;
   padding: 0 20px;
+  background: ;
+}
+
+#hero2{
+  background-color: rgba(0, 0, 0, 0.5);
+ 
 }
 
 /* parralax scrolling effekt övanför med flexbox */
@@ -137,5 +143,5 @@ section{
 
   /* Stoppar sidan från att kunna scrollas i sidled (horisontellt) */
 
-/*   
-  @media (max-width: 600px); */
+  
+  @media (max-width: 600px);
