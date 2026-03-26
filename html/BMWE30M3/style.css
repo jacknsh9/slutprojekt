@@ -44,14 +44,28 @@
    background-color:  grey;
   }
 
+  #Engineering{
+    padding: 140px;
+    gap: 30px;
+    text-align: center;
+
+  }
+
 
 
   #motorsport{
 
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding: 20px;
     gap: 30px;
+  }
+
+  #dominance{
+    text-align: center;
+    padding: 20px;
+    gap: 30px;
+    
   }
 
 
@@ -66,7 +80,6 @@
     margin-bottom: 20px;
     border-radius: 8px;
   }
-
  
 
 
