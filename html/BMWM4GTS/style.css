@@ -40,6 +40,67 @@ nav{
    background-color:  grey;
   }
 
+  #Motorsport{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  #Design{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  #benchmark{
+    text-align: center;
+    padding: 20px;
+    gap: 30px;
+  }
+
+
+
+  #gridd{
+    display: grid;
+    min-height: 100vh;
+    grid-template: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "engin  interior  engine"
+    
+  }
+
+
+
+
+  #engin{
+    background: url(Images/m4gts2.jpg);
+    background-size: cover;
+    grid-area:engin;
+    margin: 15px;
+    padding: 15px;
+
+  }
+
+
+
+  #interior{
+    background: url(Images/m4gts3.jpg);
+    background-size: cover;
+    grid-area:interior;
+    margin: 15px;
+    padding: 15px;
+  }
+
+  #engine{
+    background: url(Images/m4gts5.jpg);
+    background-size: cover;
+    grid-area: engine;
+    margin: 15px;
+    padding: 15px;
+  }
+
 
 
   
