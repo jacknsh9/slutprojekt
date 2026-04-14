@@ -11,7 +11,6 @@
   justify-content: center;
   text-align: center;
   padding: 0 20px;
-  background: ;
 }
 
 #hero2{
@@ -143,5 +142,5 @@ section{
 
   /* Stoppar sidan från att kunna scrollas i sidled (horisontellt) */
 
-  
-  @media (max-width: 600px);
+/*   
+  @media (max-width: 600px); */

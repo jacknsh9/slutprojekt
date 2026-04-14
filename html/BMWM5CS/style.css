@@ -40,11 +40,12 @@
      background-color:  grey;
     }
 
+    h2{
+      gap: 30px;
+      padding:20px ;
 
-    aside{
-        display: flex;
-        justify-content: flex-start;
     }
+
 
     #Sedan{
         display: flex;
@@ -54,9 +55,10 @@
     }
 
     #Power{
-
-        padding: 20px;
-        gap: 30px;
+        display: flex;
+        align-items: center;
+      padding: 20px;
+      gap: 30px;
     }
 
     #Modern{

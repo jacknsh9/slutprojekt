@@ -17,6 +17,11 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
+h2{
+  padding: 20px;
+  gap: 30px;
+}
+
 
 
 
@@ -53,7 +58,7 @@ nav{
 
   #Design{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding: 20px;
     gap: 30px;
   }
