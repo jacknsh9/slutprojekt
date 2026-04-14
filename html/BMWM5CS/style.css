@@ -40,6 +40,12 @@
      background-color:  grey;
     }
 
+
+    aside{
+        display: flex;
+        justify-content: flex-start;
+    }
+
     #Sedan{
         display: flex;
         align-items: center;
