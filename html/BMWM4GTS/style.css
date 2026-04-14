@@ -85,6 +85,14 @@ nav{
   }
 
 
+  
+  section{
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+
 
 
   #engin{
@@ -113,21 +121,6 @@ nav{
     margin: 15px;
     padding: 15px;
   }
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
 
 footer{
     background-color: #2A2A2A;
