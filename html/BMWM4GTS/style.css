@@ -49,8 +49,10 @@ nav{
    background-color:  grey;
   }
 
-/* .dropbtn {
-  background-color: darkslategray;
+
+/* 
+.dropbtn {
+  background-color:  #2A2A2A;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -65,14 +67,14 @@ nav{
 .drop{
   display: none;
   position: absolute;
-  background-color: darkslategray;
+  background-color: #2A2A2A;
   min-width: 160px;
   box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .drop a{
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
