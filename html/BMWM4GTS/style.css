@@ -106,6 +106,18 @@ nav{
     gap: 30px;
   }
 
+
+  #vid{
+    display: flex;
+        align-items: flex-end;
+        padding: 20px;
+        gap: 30px;
+  }
+
+
+
+
+
   #benchmark{
     text-align: center;
     padding: 20px;
